@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <style>
         .jumbotron-bg {
-            background-image: url('{{ url_for("static", filename="immagini/image.png") }}'); 
+            background-image: url('{{ url_for("static", filename="immagini/Tokyo.png") }}'); 
             background-size: cover; 
             background-position: center; 
             color: white;
@@ -18,27 +18,19 @@
 </head>
 <body>
     <div class="mt-4 p-5 jumbotron-bg text-white">
-        <h1>Storia del Giappone</h1>
-    </header>
-    <main>
-        <section>
-            <h2>La capitale: Tokyo</h2>
-            <p>Tokyo, un tempo conosciuta come Edo, è diventata la capitale del Giappone nel 1868 durante la Restaurazione Meiji. Oggi è una delle città più grandi e moderne del mondo.</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Tokyo_Tower_and_surrounding_buildings.jpg" alt="Panorama di Tokyo">
-        </section>
-        <section>
-            <h2>La Seconda Guerra Mondiale</h2>
-            <p>Durante la Seconda Guerra Mondiale, il Giappone subì due bombardamenti nucleari su Hiroshima e Nagasaki nel 1945, che causarono distruzione e milioni di vittime. Questo evento segnò la fine della guerra.</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Atomic_bombing_of_Japan.jpg" alt="Esplosione nucleare su Hiroshima">
-        </section>
-        <section>
-            <h2>Il Giappone oggi</h2>
-            <p>Oggi il Giappone è una potenza mondiale, noto per la sua tecnologia avanzata, la cultura unica e la resilienza del suo popolo.</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Shibuya_Crossing_in_Tokyo.jpg" alt="Incrocio di Shibuya a Tokyo">
-        </section>
-    </main>
-        <a href="/" class="btn btn-success mt-5">Torna Indietro</a>    
-        <a href="/" class="btn btn-success mt-5">Torna Indietro</a>    
+        <h1>Luoghi Turistici</h1> 
+        <p>I migliori luoghi da visitare per un viaggio a Tokyo</p>
+    </div>
+    <div class="mx-5 pt-3">
+        <p>
+            Tokyo è una città vibrante che offre numerose attrazioni imperdibili. 
+            Il quartiere di <strong>Shibuya</strong> è famoso per il suo iconico incrocio pedonale e per lo shopping dinamico, perfetto per gli amanti della moda e della cultura pop giapponese. 
+            Per un'esperienza magica. <strong>Disneyland Tokyo</strong> accoglie i visitatori con parchi tematici incantevoli e attrazioni per tutte le età. 
+            La <strong>Tokyo Tower</strong>, ispirata alla Torre Eiffel, è un simbolo della città, offrendo viste spettacolari dal suo osservatorio. 
+            Il <strong>Palazzo Imperiale</strong>, circondato da giardini curati, rappresenta la storia e l'eleganza del Giappone, essendo la residenza ufficiale dell'Imperatore. 
+            Infine, il <strong>Senso-ji</strong>, il tempio più antico di Tokyo, è un luogo spirituale e culturale, noto per la sua imponente lanterna rossa e l'atmosfera tradizionale di Asakusa.
+            </p>            
+        <a href="/" class="btn btn-success mt-5">Torna Indietro</a>   
     </div>
 </body>
 </html>
