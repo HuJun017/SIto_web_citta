@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storia</title>
+    <title>Storia di Tokyo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <style>
@@ -12,23 +12,59 @@
             background-size: cover; 
             background-position: center; 
             color: white;
-            opacity: 50%;
+            opacity: 0.9;
+            padding: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        section img {
+            margin: 15px 0;
         }
     </style>
 </head>
 <body>
-    <div class="mt-4 p-5 jumbotron-bg text-white">
-        <h1>STORIA DI TOKYO</h1>
-        <p>Dalle origini all'era contemporanea</p>
-    </div>
-    <div class="container-fluid mt-4 p-5">
-        <p>
-            Tokyo, originariamente un piccolo villaggio di pescatori chiamato Edo, inizi&ograve; a svilupparsi significativamente nel periodo Edo (1603-1868) quando divenne la sede dello shogunato Tokugawa. Durante questo periodo, Edo crebbe rapidamente fino a diventare una delle citt&agrave; pi&ugrave; grandi del mondo. <br />
-            Nel 1868, con la Restaurazione Meiji, Edo fu rinominata Tokyo ("Capitale Orientale") e divenne la capitale del Giappone, sostituendo Kyoto. Durante l'era Meiji, Tokyo si modernizz&ograve; rapidamente, adottando infrastrutture occidentali come ferrovie, edifici in mattoni e luci elettriche.<br />
-            La citt&grave; subì gravi danni durante il **Grande Terremoto del Kanto** nel 1923 e durante i bombardamenti della Seconda Guerra Mondiale, ma fu ricostruita e divenne il centro economico e culturale del Giappone nel dopoguerra.<br />
-            Oggi, Tokyo &egrave; una metropoli globale, famosa per la sua fusione di tradizione e modernit&agrave;, che spazia dai templi antichi come il Sensō-ji ai grattacieli futuristici di Shinjuku e Shibuya.
-        </p>
-        <a href="/" class="btn btn-success mt-5">Torna Indietro</a>    
+    <header>
+        <div class="jumbotron-bg text-center text-white">
+            <h1>Storia di Tokyo</h1>
+        </div>
+    </header>
+    <main class="container mt-4" style="font-family: Arial, sans-serif; line-height: 1.6;">
+        <section>
+            <h2>Le Origini: Edo</h2>
+            <p>Le origini di <b>Tokyo</b> risalgono a un piccolo villaggio di pescatori chiamato <b>Edo</b>. Situato strategicamente alla foce del fiume Sumida,</br> 
+                Edo inizi&ograve; a guadagnare importanza nel 1603, quando Tokugawa Ieyasu stabilì il suo shogunato. Edo si trasform&ograve; rapidamente in un centro politico,</br>  
+                culturale ed economico del Giappone, crescendo fino a diventare una delle citt&agrave; più popolose del mondo nel XVIII secolo.</br>  
+                La citt&agrave; era famosa per il suo sistema avanzato di gestione urbana, con canali e quartieri ben pianificati.</br> 
+            </p>
+            <img src="/static/immagini/mappa_edo.png" alt="Mappa di Edo" class="img-fluid" width="500px">
+        </section>
+        <section>
+            <br>
+            <br>
+            <br>
+            <h2>La Restaurazione Meiji</h2>
+            <p>Nel 1868, Edo fu ribattezzata Tokyo, che significa <b>"Capitale dell'Est"</b>, durante la Restaurazione <b>Meiji</b>.</br> 
+                Questo periodo segn&ograve; la fine del potere dello shogunato Tokugawa e il ritorno dell'imperatore come figura centrale.</br> 
+                Tokyo divenne ufficialmente la capitale del Giappone, sostituendo Kyoto. La citt&agrave; sub&igrave; una rapida modernizzazione,</br> 
+                con l'introduzione di infrastrutture occidentali, tra cui ferrovie, ponti e strade, e l'espansione delle istituzioni educative.</br> 
+                Questa trasformazione fece di Tokyo il simbolo della modernit&agrave; giapponese.</br>
+            </p>
+            <img src="/static/immagini/meiji.png" alt="Tokyo nel 1868" class="img-fluid" width="500px">
+        </section>
+        <section>
+            <br>
+            <br>
+            <br>
+            <h2>Tokyo moderna</h2>
+            <p>Dopo aver subito gravi danni durante il Grande <b>Terremoto del Kanto</b> nel 1923 e la Seconda Guerra Mondiale, Tokyo si ricostru&igrave;,</br>  
+                diventando una delle citt&agrave; più dinamiche del mondo. Negli anni '60, con il miracolo economico giapponese, Tokyo si trasform&agrave; in un centro globale di finanza,</br>  
+                tecnologia e cultura. Oggi, la citt&agrave; &egrave; famosa per i suoi grattacieli, i quartieri futuristici come Shibuya e Akihabara,</br>  
+                e la combinazione unica di tradizione e modernit&agrave;. Tokyo ospita alcuni dei migliori ristoranti del mondo, ed &egrave; considerata un faro culturale per cinema, anime, e moda.</br> 
+            </p>
+            <img src="/static/immagini/shibuya2.png" alt="Shibuya Crossing a Tokyo" class="img-fluid" width="500px">
+        </section>
+    </main>
+    <div class="mx-5 pt-3">       
+        <a href="/" class="btn btn-success mt-5">Torna Indietro</a>   
     </div>
 </body>
 </html>
