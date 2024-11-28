@@ -17,35 +17,63 @@
             color: white;
             opacity: 50%;
         }
+
+        /*Bordo per le immagini*/
+        .bordo{
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        /*Font esterno*/
+        @font-face {
+            font-family: 'Ungai';
+            src: url('/static/font/Ungai.ttf') format('truetype'); 
+        }
     </style>
 </head>
 <body>
-    <!--Titolo-->
-    <div class="mt-4 p-5 jumbotron-bg text-white">
-        <h1>東 To<span style="color: red;">k</span>yo 京</h1>
+    <!-- Titolo -->
+    <div class="mt-4 p-5 jumbotron-bg text-white text-center">
+        <h1>東 To<span style="color: red;font-family: Ungai;">k</span>yo 京</h1>
         <p>Capitale d'Oriente</p>
     </div>
 
-    <!--Barra di navigazione-->
+    <!-- Barra di navigazione -->
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/storia">STORIA</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/luoghi">LUOGHI</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/curiosita">CURIOSITA&grave;</a>
-                </li>
-            </ul>
-        </div>
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link text-center" href="/storia">STORIA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="/luoghi">LUOGHI</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-center" href="/curiosita">CURIOSITA&grave;</a>
+            </li>
+        </ul>
     </nav>
 
-    <!--descrizione generale tokyo-->
+
+
+    <!-- Descrizione generale Tokyo -->
     <div class="mt-4 p-5">
-        <p>Tokyo e&grave; la capitale del Giappone. Il suo significato letterale è "Capitale(京) d'Oriente(東)". Oggi conta piu&grave; di 40 milioni di abitanti nell'area metropolitana, rendendola dunque l'area metropilitana piu&grave; popolosa del mondo</p>
+        <p>
+            Tokyo e&grave; la capitale del Giappone, un vibrante mix di tradizione e modernit&agrave;. 
+            Il suo nome, che significa letteralmente "Capitale (京) d'Oriente (東)", riflette il ruolo centrale della citt&agrave; 
+            nella storia e nella cultura del Paese. Con oltre 40 milioni di abitanti nella sua area metropolitana, Tokyo non e&grave; 
+            solo la metropoli pi&ugrave; popolosa del mondo, ma anche una delle pi&ugrave; dinamiche e influenti. 
+            La citt&agrave; e&grave; famosa per i suoi grattacieli futuristici, i quartieri animati come Shibuya e Shinjuku, e gli storici templi e 
+            santuari come il Senso-ji. Tokyo ospita anche una cucina rinomata a livello mondiale, con pi&ugrave; ristoranti stellati 
+            Michelin di qualsiasi altra citt&agrave;. Ogni angolo della citt&agrave; offre un'esperienza unica, dalla pace dei giardini tradizionali 
+            alla vivace vita notturna, rendendola una meta imperdibile per milioni di visitatori ogni anno.
+        </p>
     </div>
+
+    <!--Immagini-->
+    <div class="d-flex justify-content-center mb-5">
+        <img src="/static/immagini/TokyoFlag.png" alt="Bandiera della città metropolitana di Tokyo" class="bordo" width="150px">
+        <img src="/static/immagini/JapanFlag.png" alt="Bandiera del Giappone" class="mx-2 bordo" width="150px">
+    </div>
+    
 </body>
 </html>
