@@ -24,6 +24,15 @@
             border-radius: 10px;
         }
 
+        /* Barra di navigazione */
+        .navbar-dark .navbar-nav .nav-link {
+            color: white; /* Colore del testo bianco di default */
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #ffc107; /* Colore giallo quando ci si passa sopra con il mouse */
+        }
+
         /*Font esterno*/
         @font-face {
             font-family: 'Ungai';
@@ -32,14 +41,18 @@
     </style>
 </head>
 <body>
+    <!-- Barra scura sopra il jumbotron -->
+    <div class="bg-dark text-white py-4 ">
+    </div>
+
     <!-- Titolo -->
-    <div class="mt-4 p-5 jumbotron-bg text-white text-center">
-        <h1>東 To<span style="color: red;font-family: Ungai;">k</span>yo 京</h1>
+    <div class="p-5 jumbotron-bg text-white text-center">
+        <h1>東 To<span style="color: red; font-family: Ungai;">k</span>yo 京</h1>
         <p>Capitale d'Oriente</p>
     </div>
 
     <!-- Barra di navigazione -->
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
                 <a class="nav-link text-center" href="/storia">STORIA</a>
@@ -48,7 +61,7 @@
                 <a class="nav-link text-center" href="/luoghi">LUOGHI</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-center" href="/curiosita">CURIOSITA&grave;</a>
+                <a class="nav-link text-center" href="/curiosita">CURIOSITÀ</a>
             </li>
         </ul>
     </nav>
@@ -58,7 +71,7 @@
     <!-- Descrizione generale Tokyo -->
     <div class="mt-4 p-5">
         <p>
-            Tokyo e&grave; la capitale del Giappone, un vibrante mix di tradizione e modernit&agrave;. 
+            <b>Tokyo</b> e&grave; la capitale del Giappone, un vibrante mix di tradizione e modernit&agrave;. 
             Il suo nome, che significa letteralmente "Capitale (京) d'Oriente (東)", riflette il ruolo centrale della citt&agrave; 
             nella storia e nella cultura del Paese. Con oltre 40 milioni di abitanti nella sua area metropolitana, Tokyo non e&grave; 
             solo la metropoli pi&ugrave; popolosa del mondo, ma anche una delle pi&ugrave; dinamiche e influenti. 

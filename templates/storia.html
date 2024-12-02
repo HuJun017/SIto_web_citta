@@ -20,19 +20,32 @@
         section img {
             margin: 15px 0;
         }
+
+        /* Bottone per tornare indietro */
+        .navbar-dark .navbar-nav .nav-link {
+            color: white; /* Colore del testo bianco di default */
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #ffc107; /* Colore giallo quando ci si passa sopra con il mouse */
+        }
     </style>
 </head>
 <body>
+    <!-- Barra scura sopra il jumbotron -->
+    <div class="bg-dark text-white py-4 ">
+    </div>
+    
     <!--Titolo-->
     <header>
-        <div class="mt-4 p-5 jumbotron-bg text-center text-white">
+        <div class="p-5 jumbotron-bg text-center text-white">
             <h1>Storia di Tokyo</h1>
             <p>Dalle origini alla modernita&grave;</p>
         </div>
     </header>
 
-    <!-- Bottone che tornare indietro -->
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <!-- Bottone per tornare indietro -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -52,7 +65,7 @@
                 culturale ed economico del Giappone, crescendo fino a diventare una delle citt&agrave; più popolose del mondo nel XVIII secolo.</br>  
                 La citt&agrave; era famosa per il suo sistema avanzato di gestione urbana, con canali e quartieri ben pianificati.</br> 
             </p>
-            <img src="/static/immagini/mappa_edo.png" alt="Mappa di Edo" class="img-fluid" width="500px">
+            <img src="/static/immagini/mappa_edo.png" alt="Mappa di Edo" class="img-fluid rounded" width="500px">
         </section>
         <section>
             <br />
@@ -65,7 +78,7 @@
                 con l'introduzione di infrastrutture occidentali, tra cui ferrovie, ponti e strade, e l'espansione delle istituzioni educative.</br> 
                 Questa trasformazione fece di Tokyo il simbolo della modernit&agrave; giapponese.</br>
             </p>
-            <img src="/static/immagini/meiji.png" alt="Tokyo nel 1868" class="img-fluid" width="500px">
+            <img src="/static/immagini/meiji.png" alt="Tokyo nel 1868" class="img-fluid rounded" width="500px">
         </section>
         <section>
             <br>
@@ -77,7 +90,7 @@
                 tecnologia e cultura. Oggi, la citt&agrave; &egrave; famosa per i suoi grattacieli, i quartieri futuristici come Shibuya e Akihabara,</br>  
                 e la combinazione unica di tradizione e modernit&agrave;. Tokyo ospita alcuni dei migliori ristoranti del mondo, ed &egrave; considerata un faro culturale per cinema, anime, e moda.</br> 
             </p>
-            <img src="/static/immagini/shibuya2.png" alt="Shibuya Crossing a Tokyo" class="img-fluid" width="500px">
+            <img src="/static/immagini/shibuya2.png" alt="Shibuya Crossing a Tokyo" class="img-fluid rounded" width="500px" style="border: 2px solid black;">
         </section>
     </main>
 </body>
